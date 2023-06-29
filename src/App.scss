@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto";
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a,
+h2 {
+  color: white;
+}
+
+.header {
+  $bg: rgb(5, 1, 1);
+  height: 50px;
+  background-color: $bg;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  justify-content: space-between;
+  > img {
+    height: 60%;
+  }
+  > div {
+    // border: 1px solid red;
+    width: 100%;
+    margin-left: 2vmax;
+    > a {
+      margin: 15px;
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+  }
+  > svg {
+    color: white;
+    padding-right: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    &:hover {
+      color: grey;
+    }
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
